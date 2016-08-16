@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'web-push-notification-rails'
   s.add_dependency "rails", ">= 3.1.0"
   s.add_dependency "json"
-  s.add_dependency 'rubyzip', '< 1.0.0'
+  s.add_dependency 'rubyzip'
   s.add_runtime_dependency "activesupport", ">= 3.0"
   s.add_development_dependency 'rspec', '>2.0'
   s.add_development_dependency 'rake'
